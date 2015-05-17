@@ -1,0 +1,5 @@
+<div class="weather">
+    <div class="ico {{ 'ico-' + widget.data.weather[0].icon }}"></div>
+    <p class="temp">{{widget.data.main.temp | number: 0}}<sup>&deg;C</sup></p>
+    <p class="footer">{{widget.data.name}}</p>
+</div>
